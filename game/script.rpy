@@ -1,10 +1,10 @@
 # Declare characters used by this game.
-define Martín = Character('Martín', color="#f0ed54")
-define Ana = Character('Ana', color="#be0049")
-define Carlos = Character('Carlos', color="#0e91e9")
-define María = Character('María', color="#930aee")
-define Juan = Character('Juan', color="#30be30")
-define Guia = Character('Guia', color="#b6118c")
+define Martín = Character('Martín', color="#f0ed54") #Byleth
+define Ana = Character('Ana', color="#be0049") #Lucina
+define Carlos = Character('Carlos', color="#0e91e9") #Roy
+define María = Character('María', color="#930aee") #Corrin
+define Juan = Character('Juan', color="#30be30") #Ike
+define Guia = Character('Guia', color="#b6118c") #Robin
 # The game starts here.
 label start:
 
@@ -183,9 +183,43 @@ label equipo:
 
     "El equipo reflexiona sobre la importancia del compromiso y la responsabilidad individual."
 
-    
-    return
+    show ike
 
+    Juan "Tienes razón, Martín. No podemos permitirnos perder la visión del proyecto. Estoy comprometido y dispuesto a dar lo mejor de mí para alcanzar nuestros objetivos."
+
+    hide ike
+    show corrin
+
+    María "Yo también. A veces es fácil perder de vista el panorama general, pero ahora entiendo que mi compromiso es crucial para el éxito del equipo"
+
+    hide corrin
+
+    "Con el compromiso renovado, el equipo de Scrum Masters continúa su ascenso con renovada energía y determinación."
+    
+    "Aprenden que el compromiso y la responsabilidad individual son fundamentales en un proyecto Scrum, ya que cada miembro del equipo debe estar alineado con los objetivos comunes."
+
+    "A lo largo del camino, el equipo también se da cuenta de la importancia de la adaptabilidad. Se encuentran con situaciones inesperadas, como cambios en las condiciones climáticas, senderos bloqueados y otros obstáculos que los obligan a ajustar su plan original."
+
+    show robin
+
+    Carlos "Parece que el sendero que planeamos tomar está bloqueado. Tenemos que encontrar una ruta alternativa."
+
+    hide robin
+    show ike
+
+    Juan "Sí, debemos ser flexibles y adaptarnos a las circunstancias cambiantes. ¿Qué tal si tomamos el sendero de la derecha en su lugar?"
+
+    hide ike
+
+    "El equipo trabaja juntos para encontrar soluciones creativas y adaptarse a los cambios en el camino, aplicando los principios ágiles de Scrum."
+    
+    "Aprenden que la adaptabilidad es esencial en un entorno empresarial y que deben estar dispuestos a ajustar su enfoque según las necesidades del proyecto."
+
+    "Con cada desafío superado y cada lección aprendida, el equipo de Scrum Masters se vuelve más cohesionado y efectivo."
+    
+    "Han aprendido la importancia de la comunicación, la resistencia al cambio, el compromiso y la adaptabilidad en el contexto de Scrum, y han aplicado estos principios en su camino hacia la cima de la montaña."
+
+    jump acto2
 
     label izquierda:
         show lucina
@@ -223,6 +257,83 @@ label equipo:
 
         hide robin
         jump Caminos
+
+    label acto3:
+
+    show ike
+
+    Juan "¡Miren esto! ¡Un antiguo libro en el templo! Parece que contiene la esencia misma de la metodología Scrum."
+
+    hide ike
+    show byleth
+
+    Martín "Increíble, ¿verdad? Vamos a explorar su contenido y descubrir lo que podemos aprender."
+
+    hide byleth
+
+    "El equipo de Scrum Masters se sumerge en la lectura del antiguo libro y descubre los principios fundamentales de Scrum y cómo aplicarlos en su trabajo diario."
+    
+    "A medida que leen, se dan cuenta de que han estado aplicando algunos de los conceptos de Scrum de manera superficial, pero que ahora tienen una comprensión más profunda y completa de la metodología"
+
+    Scrum Master 11: "Esto es asombroso. Ahora entiendo la importancia de la inspección y adaptación continua en nuestros proyectos Scrum. También puedo ver cómo podemos mejorar nuestra transparencia y colaboración."
+ 
+    Scrum Master 12: "Sí, definitivamente. También me doy cuenta de cómo podemos mejorar la gestión de nuestro backlog y la planificación de sprints para hacer nuestro trabajo más eficiente."
+ 
+    "El equipo de Scrum Masters discute y comparte ideas sobre cómo aplicar los principios de Scrum de manera más efectiva en su trabajo."
+    
+    "Se dan cuenta de que hay áreas de mejora y oportunidades para aplicar lo que han aprendido en el antiguo libro en sus proyectos actuales y futuros."
+ 
+    Scrum Master 13: "Creo que ahora tenemos una comprensión mucho más profunda de Scrum y cómo puede ayudarnos a enfrentar los retos en nuestros proyectos. Estoy emocionado de implementar estos cambios y ver los resultados."
+ 
+    Scrum Master 14: "Sí, definitivamente. Creo que este descubrimiento en el templo ha sido un punto de inflexión para nuestro equipo. Estoy ansioso por compartir lo que hemos aprendido con el resto del equipo y seguir mejorando."
+ 
+    "El equipo de Scrum Masters sale del templo con una nueva perspectiva y una comprensión más profunda de Scrum. Han superado los desafíos en su camino hacia la cima de la montaña y han descubierto el conocimiento valioso en el antiguo libro."
+    
+    "Ahora están preparados para aplicar lo que han aprendido en sus proyectos y llevar a su equipo a un nuevo nivel de eficiencia y colaboración."
+
+    jump casa
+
+    label casa:
+
+    Scrum Master 9: "¡Ya estamos de regreso en casa! Es hora de poner en práctica todo lo que hemos aprendido en el templo y llevar nuestros proyectos Scrum al siguiente nivel."
+ 
+    Scrum Master 10: "¡Exactamente! Vamos a compartir nuestras experiencias con nuestros equipos y comenzar a implementar los principios de Scrum en nuestros proyectos reales."
+ 
+    "El equipo de Scrum Masters se reúne con sus respectivos equipos y comparte sus conocimientos y aprendizajes del antiguo libro. Explican los principios de Scrum y cómo pueden ser aplicados en su trabajo diario para mejorar la eficiencia y la calidad de los proyectos."
+ 
+    Equipo de Desarrollo 1: "Esto suena realmente interesante. Creo que podemos aplicar el principio de inspección y adaptación en nuestras reuniones diarias de seguimiento del progreso del proyecto."
+ 
+    Equipo de Desarrollo 2: "Sí, definitivamente. También podemos mejorar la transparencia compartiendo información relevante en nuestro tablero de trabajo y en nuestras reuniones de revisión del sprint."
+ 
+    "El equipo de Scrum Masters trabaja en estrecha colaboración con sus equipos para implementar las herramientas y prácticas de Scrum en sus proyectos reales. Se enfrentan a desafíos y obstáculos en el camino, pero utilizan los principios de Scrum para adaptar la metodología a sus necesidades específicas."
+ 
+    Scrum Master 11: "Es genial ver cómo nuestros equipos están adoptando los principios de Scrum y cómo están mejorando la colaboración y la transparencia en nuestros proyectos."
+ 
+    Scrum Master 12: "Sí, definitivamente. También estamos entregando valor a nuestros clientes de una manera más efectiva gracias a las prácticas de Scrum que estamos implementando."
+ 
+    "A medida que el tiempo pasa, el equipo de Scrum Masters y sus equipos experimentan una mejora en la eficiencia y la calidad de sus proyectos. Los clientes están más satisfechos con los resultados y los equipos están más comprometidos y colaborativos en su trabajo."
+ 
+    "El guión concluye con el equipo de Scrum Masters celebrando el éxito de la implementación de Scrum en sus proyectos reales. Se dan cuenta de que la aventura en el templo fue una experiencia transformadora que les permitió mejorar su enfoque de trabajo y obtener resultados positivos en sus proyectos ágiles."
+
+ 
+    Martín: "¡Y así concluye nuestra aventura con Scrum! Hemos aprendido mucho en nuestro viaje y ahora es el momento de reflexionar sobre lo que hemos aprendido."
+ 
+    "El equipo de Scrum Masters y otros participantes se reúnen en una sesión de resumen y reflexión, donde discuten los principios fundamentales de Scrum y cómo han aplicado la metodología en sus contextos y proyectos específicos."
+ 
+    Scrum Master 1: "Una de las cosas que más me gustó de Scrum es el enfoque en la colaboración y la transparencia. Ha mejorado nuestra comunicación interna y nos ha permitido trabajar de manera más eficiente como equipo."
+ 
+    Scrum Master 2: "Definitivamente, ha sido una experiencia transformadora. El principio de inspección y adaptación nos ha permitido mejorar constantemente y adaptarnos a los cambios en el entorno del proyecto."
+ 
+    Martín: "Sí, y también me ha gustado cómo Scrum nos ha ayudado a entregar valor a nuestros clientes de una manera más rápida y efectiva. Nuestros proyectos han sido más exitosos desde que implementamos Scrum en nuestra organización."
+ 
+    Scrum Master 3: "¡Y también hemos aprendido la importancia de la adaptabilidad! Cada proyecto es diferente y Scrum nos ha brindado la flexibilidad necesaria para ajustarnos a las necesidades cambiantes de nuestros clientes y del mercado."
+ 
+    "Se anima a los participantes a seguir aprendiendo y mejorando en su práctica de Scrum. Se destacan los beneficios de compartir experiencias y conocimientos con la comunidad de Scrum, creando un legado duradero en la implementación exitosa de la metodología en su organización"
+ 
+    Martín: "Es importante seguir aprendiendo y mejorando en nuestra práctica de Scrum. También debemos compartir nuestras experiencias y conocimientos con la comunidad de Scrum para que más personas puedan beneficiarse de esta metodología ágil."
+ 
+    Scrum Master 4: "Sí, definitivamente. Crear un legado duradero en la implementación exitosa de Scrum en nuestra organización es fundamental. Sigamos aprendiendo, compartiendo y mejorando juntos."
+
 
     label no:
 
