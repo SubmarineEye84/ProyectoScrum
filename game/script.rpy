@@ -116,7 +116,7 @@ label si:
 
     hide robin
 
-    menu:
+    menu Caminos:
 
         "¿Que camino eliges?"
 
@@ -167,18 +167,63 @@ label equipo:
 
     Martín "Scrum es una metodología ágil que nos permite ser flexibles y adaptarnos a las necesidades del proyecto. Confíen en el proceso y trabajemos juntos para superar esta resistencia al cambio."
 
+    hide byleth
+
+    "Con paciencia y perseverancia, Martín y su equipo logran superar la resistencia al cambio y continúan su ascenso hacia la cima de la montaña."
+
+    "Finalmente, el equipo enfrenta un último desafío: la falta de compromiso con los objetivos del proyecto."
+
+    "Algunos Scrum Masters muestran falta de motivación y compromiso, lo que afecta la cohesión y la eficacia del equipo."
+
+    show byleth
+
+    Martín "Chicos, es importante que estemos comprometidos con los objetivos del proyecto. Solo trabajando juntos y demostrando un compromiso sólido podremos llegar a la cima y alcanzar el éxito en nuestra misión. Hagamos un esfuerzo extra y mantengamos la visión clara en mente."
+
+    hide byleth
+
+    "El equipo reflexiona sobre la importancia del compromiso y la responsabilidad individual."
+
     
     return
 
 
     label izquierda:
+        show lucina
 
-        María "XD"
-        return
+        Ana "Vamos por acá, ¡rápido!"
+
+        hide lucina
+        show robin
+
+        Carlos "Te he dicho que a la derecha, ¿porque debemos hacer lo que dices tu?"
+
+        Carlos "Yo no iré hacia ese camino"
+
+        hide robin
+        show lucina
+
+        Ana "¡Ay por el amor de dios!"
+
+        hide lucina
+        jump Caminos
 
     label derecha:
+        show robin
 
-        return
+        Carlos "Como les decia, creo firmemente que la opción a elegir es ir a la derecha"
+
+        hide robin
+        show lucina
+
+        Ana "Pero si la izquierda se mira completamente mejor que la derecha, vamos mejor allá"
+        hide lucina
+        show robin
+
+        Carlos "¡No, hagan lo que yo digo!"
+
+        hide robin
+        jump Caminos
+
     label no:
 
     "Decidiste no ir, no obtuviste el conocimiento de SCRUM"
