@@ -323,7 +323,7 @@ label equipo:
 
     "Y finalmente, asi esta gran aventura ha llegado a su fin."
 
-    jump final:
+    jump final
 
     label izquierda:
         show lucina
