@@ -321,6 +321,10 @@ label equipo:
     c "Sí, definitivamente. Crear un legado duradero en la implementación exitosa de Scrum en nuestra organización es fundamental. Sigamos aprendiendo, compartiendo y mejorando juntos."
     hide robin
 
+    "Y finalmente, asi esta gran aventura ha llegado a su fin."
+
+return 
+
     label izquierda:
         show lucina
 
