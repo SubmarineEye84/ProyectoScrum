@@ -219,7 +219,6 @@ label equipo:
     
     "Han aprendido la importancia de la comunicación, la resistencia al cambio, el compromiso y la adaptabilidad en el contexto de Scrum, y han aplicado estos principios en su camino hacia la cima de la montaña."
 
-    jump acto2
 
     label izquierda:
         show lucina
@@ -258,7 +257,7 @@ label equipo:
         hide robin
         jump Caminos
 
-    label acto3:
+ 
 
     show ike
 
