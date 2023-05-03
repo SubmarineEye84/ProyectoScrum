@@ -323,7 +323,7 @@ label equipo:
 
     "Y finalmente, asi esta gran aventura ha llegado a su fin."
 
-return 
+    jump final:
 
     label izquierda:
         show lucina
@@ -377,4 +377,8 @@ return
 
     "{b}Bad Ending{/b}."
 
+label final: 
+
+
     return
+
