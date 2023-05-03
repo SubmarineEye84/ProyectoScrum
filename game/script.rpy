@@ -30,9 +30,9 @@ label start:
     "Después de una intensa discusión, llegan a la conclusión de que se trata de una oportunidad para aprender sobre una metodología ágil en particular: Scrum."
 
 
-    Martín "¡Chicos, parece que nos están invitando a aprender más sobre Scrum! Sabemos que Scrum es una metodología ágil utilizada para el desarrollo de proyectos, pero no sabemos mucho más."
+    m "¡Chicos, parece que nos están invitando a aprender más sobre Scrum! Sabemos que Scrum es una metodología ágil utilizada para el desarrollo de proyectos, pero no sabemos mucho más."
 
-    Martín "¡Esta es una oportunidad emocionante para sumergirnos en el mundo de Scrum y descubrir sus secretos!"
+    m "¡Esta es una oportunidad emocionante para sumergirnos en el mundo de Scrum y descubrir sus secretos!"
 
     menu:
 
@@ -51,9 +51,9 @@ label si:
 
     show byleth
 
-    Martín "Scrum es una metodología que permite a los equipos adaptarse rápidamente a los cambios del entorno y del proyecto, promueve la colaboración y la comunicación efectiva entre los miembros del equipo, y fomenta la transparencia en todas las fases del desarrollo."
+    m "Scrum es una metodología que permite a los equipos adaptarse rápidamente a los cambios del entorno y del proyecto, promueve la colaboración y la comunicación efectiva entre los miembros del equipo, y fomenta la transparencia en todas las fases del desarrollo."
 
-    Martín "Estoy emocionado por descubrir más sobre Scrum y cómo podemos aplicarla en nuestros proyectos para mejorar nuestros resultados."
+    m "Estoy emocionado por descubrir más sobre Scrum y cómo podemos aplicarla en nuestros proyectos para mejorar nuestros resultados."
 
     "Con esta introducción a Scrum y sus principales características, Martín y su equipo se preparan para embarcarse en su aventura y aprender más sobre esta metodología ágil. Están listos para enfrentar los desafíos que se les presenten y descubrir los secretos del Scrum en su viaje."
     
