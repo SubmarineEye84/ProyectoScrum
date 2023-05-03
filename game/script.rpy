@@ -258,7 +258,8 @@ label equipo:
         hide robin
         jump Caminos
 
- 
+ return 
+
 label correcto:
     show ike
 
