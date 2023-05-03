@@ -219,48 +219,6 @@ label equipo:
     
     "Han aprendido la importancia de la comunicación, la resistencia al cambio, el compromiso y la adaptabilidad en el contexto de Scrum, y han aplicado estos principios en su camino hacia la cima de la montaña."
 
-    jump correcto:
-
-    label izquierda:
-        show lucina
-
-        a "Vamos por acá, ¡rápido!"
-
-        hide lucina
-        show robin
-
-        c "Te he dicho que a la derecha, ¿porque debemos hacer lo que dices tu?"
-
-        c "Yo no iré hacia ese camino"
-
-        hide robin
-        show lucina
-
-        a "¡Ay por el amor de dios!"
-
-        hide lucina
-        jump Caminos
-
-    label derecha:
-        show robin
-
-        c "Como les decia, creo firmemente que la opción a elegir es ir a la derecha"
-
-        hide robin
-        show lucina
-
-        a "Pero si la izquierda se mira completamente mejor que la derecha, vamos mejor allá"
-        hide lucina
-        show robin
-
-        c "¡No, hagan lo que yo digo!"
-
-        hide robin
-        jump Caminos
-
- return 
-
-label correcto:
     show ike
 
     j "¡Miren esto! ¡Un antiguo libro en el templo! Parece que contiene la esencia misma de la metodología Scrum."
@@ -362,6 +320,43 @@ label correcto:
     show robin
     c "Sí, definitivamente. Crear un legado duradero en la implementación exitosa de Scrum en nuestra organización es fundamental. Sigamos aprendiendo, compartiendo y mejorando juntos."
     hide robin
+
+    label izquierda:
+        show lucina
+
+        a "Vamos por acá, ¡rápido!"
+
+        hide lucina
+        show robin
+
+        c "Te he dicho que a la derecha, ¿porque debemos hacer lo que dices tu?"
+
+        c "Yo no iré hacia ese camino"
+
+        hide robin
+        show lucina
+
+        a "¡Ay por el amor de dios!"
+
+        hide lucina
+        jump Caminos
+
+    label derecha:
+        show robin
+
+        c "Como les decia, creo firmemente que la opción a elegir es ir a la derecha"
+
+        hide robin
+        show lucina
+
+        a "Pero si la izquierda se mira completamente mejor que la derecha, vamos mejor allá"
+        hide lucina
+        show robin
+
+        c "¡No, hagan lo que yo digo!"
+
+        hide robin
+        jump Caminos
 
     label no:
 
