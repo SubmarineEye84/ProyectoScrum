@@ -219,7 +219,8 @@ label equipo:
     
     "Han aprendido la importancia de la comunicación, la resistencia al cambio, el compromiso y la adaptabilidad en el contexto de Scrum, y han aplicado estos principios en su camino hacia la cima de la montaña."
 
-    jump historia
+    jump correcto:
+
     label izquierda:
         show lucina
 
@@ -258,7 +259,7 @@ label equipo:
         jump Caminos
 
  
-label correcto
+label correcto:
     show ike
 
     j "¡Miren esto! ¡Un antiguo libro en el templo! Parece que contiene la esencia misma de la metodología Scrum."
