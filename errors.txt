@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 114: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Decidir como equipo"
-                         ^
+File "game/script.rpy", line 26: end of line expected.
+    show byleth, adaptabilidad
+               ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Apr 26 12:38:53 2023
+Thu May 25 18:00:50 2023

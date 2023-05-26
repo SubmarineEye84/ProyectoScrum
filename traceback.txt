@@ -1,22 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 129, in script
-    jump derecha
-ScriptError: could not find label 'derecha'.
+  File "game/script.rpy", line 94, in script
+    show byleth left
+Exception: Image 'byleth' does not accept attributes 'left'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 129, in script
-    jump derecha
-  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\ast.py", line 1974, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\script.py", line 927, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'derecha'.
+  File "game/script.rpy", line 94, in script
+    show byleth left
+  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\ast.py", line 1408, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\ast.py", line 1371, in show_imspec
+    renpy.config.show(name,
+  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\exports.py", line 686, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\display\image.py", line 414, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\display\core.py", line 397, in _duplicate
+    args.extraneous()
+  File "C:\Users\grana\Documents\renpy-8.0.3-sdk\renpy\display\core.py", line 265, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'byleth' does not accept attributes 'left'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 El viaje de los SCRUM MASTER 7.0
-Mon May  1 18:11:24 2023
+Thu May 25 18:16:02 2023

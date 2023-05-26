@@ -91,7 +91,8 @@ label si:
     "Después de enfrentar varios obstáculos y de un arduo esfuerzo, el equipo finalmente alcanza una plataforma en la cima de la montaña. Se encuentran agotados pero también emocionados por lo que han aprendido en su aventura."
 
     show bg top moun
-    show byleth
+    show byleth at left 
+    show adaptabilidad at right
 
     m "¡Lo logramos! Aprendimos mucho en este desafío. La colaboración, la adaptabilidad y la comunicación efectiva son clave para enfrentar los retos en un proyecto Scrum. Estoy orgulloso de cada uno de ustedes."
 
@@ -104,6 +105,7 @@ label si:
     "En un momento, el equipo se encuentra en un cruce de caminos confuso, donde la falta de comunicación entre ellos crea confusión y desorden."
 
     hide byleth
+    hide adaptabilidad
     show lucina
 
 
@@ -161,13 +163,15 @@ label equipo:
 
     "Martín se da cuenta que la resistencia al cambio puede ser un obstáculo en la implementiación exitosa de Scrum y decide abordar el problema"
 
-    show byleth
+    show byleth at left
+    show resistencia at right
 
     m "Entiendo que el cambio puede ser difícil, pero como equipo de Scrum Masters, debemos estar dispuestos a adaptarnos y mejorar constantemente."
 
     m "Scrum es una metodología ágil que nos permite ser flexibles y adaptarnos a las necesidades del proyecto. Confíen en el proceso y trabajemos juntos para superar esta resistencia al cambio."
 
     hide byleth
+    hide resistencia
 
     "Con paciencia y perseverancia, Martín y su equipo logran superar la resistencia al cambio y continúan su ascenso hacia la cima de la montaña."
 
@@ -198,8 +202,11 @@ label equipo:
     
     "Aprenden que el compromiso y la responsabilidad individual son fundamentales en un proyecto Scrum, ya que cada miembro del equipo debe estar alineado con los objetivos comunes."
 
+    show adaptabilidad
+
     "A lo largo del camino, el equipo también se da cuenta de la importancia de la adaptabilidad. Se encuentran con situaciones inesperadas, como cambios en las condiciones climáticas, senderos bloqueados y otros obstáculos que los obligan a ajustar su plan original."
 
+    hide adaptabilidad
     show robin
 
     c "Parece que el sendero que planeamos tomar está bloqueado. Tenemos que encontrar una ruta alternativa."
@@ -217,8 +224,10 @@ label equipo:
 
     "Con cada desafío superado y cada lección aprendida, el equipo de Scrum Masters se vuelve más cohesionado y efectivo."
     
+    show colaboracion
     "Han aprendido la importancia de la comunicación, la resistencia al cambio, el compromiso y la adaptabilidad en el contexto de Scrum, y han aplicado estos principios en su camino hacia la cima de la montaña."
 
+    hide colaboracion
     show ike
 
     j "¡Miren esto! ¡Un antiguo libro en el templo! Parece que contiene la esencia misma de la metodología Scrum."
@@ -234,13 +243,15 @@ label equipo:
     
     "A medida que leen, se dan cuenta de que han estado aplicando algunos de los conceptos de Scrum de manera superficial, pero que ahora tienen una comprensión más profunda y completa de la metodología"
 
-    show ike
+    show ike at left
+    show comunicacion at right
     j "Esto es asombroso. Ahora entiendo la importancia de la inspección y adaptación continua en nuestros proyectos Scrum. También puedo ver cómo podemos mejorar nuestra transparencia y colaboración."
     hide ike
 
-    show robin
+    show robin at left
     c "Sí, definitivamente. También me doy cuenta de cómo podemos mejorar la gestión de nuestro backlog y la planificación de sprints para hacer nuestro trabajo más eficiente."
     hide robin
+    hide comunicacion
     "El equipo de Scrum Masters discute y comparte ideas sobre cómo aplicar los principios de Scrum de manera más efectiva en su trabajo."
     
     "Se dan cuenta de que hay áreas de mejora y oportunidades para aplicar lo que han aprendido en el antiguo libro en sus proyectos actuales y futuros."
@@ -277,7 +288,9 @@ label equipo:
     m "Sí, definitivamente. También podemos mejorar la transparencia compartiendo información relevante en nuestro tablero de trabajo y en nuestras reuniones de revisión del sprint."
     hide byleth
 
+    show colaboracion
     "El equipo de Scrum Masters trabaja en estrecha colaboración con sus equipos para implementar las herramientas y prácticas de Scrum en sus proyectos reales. Se enfrentan a desafíos y obstáculos en el camino, pero utilizan los principios de Scrum para adaptar la metodología a sus necesidades específicas."
+    hide colaboracion
  
     show robin
     c "Es genial ver cómo nuestros equipos están adoptando los principios de Scrum y cómo están mejorando la colaboración y la transparencia en nuestros proyectos."
@@ -297,17 +310,19 @@ label equipo:
     j "Una de las cosas que más me gustó de Scrum es el enfoque en la colaboración y la transparencia. Ha mejorado nuestra comunicación interna y nos ha permitido trabajar de manera más eficiente como equipo."
     hide ike
 
-    show corrin
+    show corrin at left
+    show adaptar at right
     mr"Definitivamente, ha sido una experiencia transformadora. El principio de inspección y adaptación nos ha permitido mejorar constantemente y adaptarnos a los cambios en el entorno del proyecto."
     hide corrin
 
-    show byleth
+    show byleth at left
     m "Sí, y también me ha gustado cómo Scrum nos ha ayudado a entregar valor a nuestros clientes de una manera más rápida y efectiva. Nuestros proyectos han sido más exitosos desde que implementamos Scrum en nuestra organización."
     hide byleth
 
-    show lucina
+    show lucina at left
     a "¡Y también hemos aprendido la importancia de la adaptabilidad! Cada proyecto es diferente y Scrum nos ha brindado la flexibilidad necesaria para ajustarnos a las necesidades cambiantes de nuestros clientes y del mercado."
     hide lucina
+    hide adaptar
 
     "Se anima a los participantes a seguir aprendiendo y mejorando en su práctica de Scrum. Se destacan los beneficios de compartir experiencias y conocimientos con la comunidad de Scrum, creando un legado duradero en la implementación exitosa de la metodología en su organización"
  
